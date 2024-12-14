@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //Incorrect way to add event listener
+    document.getElementById("myDiv").addEventListener = function(event){
+        console.log(event);
+      }
+  </script>
+</body>
+</html>
