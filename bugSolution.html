@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //Correct way to add event listener
+    document.getElementById("myDiv").addEventListener("click", function(event){
+        console.log(event);
+      });
+  </script>
+</body>
+</html>
